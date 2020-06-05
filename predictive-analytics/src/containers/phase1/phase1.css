@@ -1,0 +1,44 @@
+.phaseOneContainer {
+    padding: 10px;
+    padding-top: 25px;
+}
+
+.cardsSection {
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.cardData {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.cardData>span {
+    font-size: 25px;
+    font-weight: 700;
+    color: #6E5FD1;
+}
+
+.pictureViewer {
+    width: 100%;
+}
+
+.actionContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.actionContainer > button {
+    background-color: #6E5FD1;
+    color: white;
+}
+
+.actionContainer > button:hover {
+    /* background-color: #6E5FD1; */
+    color: black;
+}
